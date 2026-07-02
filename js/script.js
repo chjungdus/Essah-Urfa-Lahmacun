@@ -50,7 +50,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // Sanftes Einblenden der Abschnitte beim Scrollen
   const revealTargets = document.querySelectorAll(
-    '.about-grid, .menu-grid, .gallery-grid, .contact-grid'
+    '.about-grid, .usp-grid, .process-grid, .menu-grid, .gallery-grid, .faq-list, .contact-grid'
   );
 
   revealTargets.forEach((el) => el.classList.add('reveal'));
