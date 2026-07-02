@@ -73,6 +73,31 @@ h1, h2, h3 {
   border-bottom-color: var(--cream);
 }
 
+/* ===== Top banner (cross-link between the two sites) ===== */
+
+.top-banner {
+  background: var(--yellow-400);
+  color: var(--green-900);
+}
+
+.top-banner-inner {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 4px 12px;
+  padding: 8px 24px;
+  font-family: var(--font-display);
+  font-size: 0.78rem;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+
+.top-banner-inner a {
+  font-weight: 700;
+  border-bottom: 1px solid var(--green-900);
+}
+
 /* ===== Header ===== */
 
 .site-header {
@@ -266,6 +291,33 @@ h1, h2, h3 {
   object-fit: cover;
 }
 
+/* ===== Placeholder boxes (for photos not uploaded yet) ===== */
+
+.placeholder-box {
+  position: relative;
+  border: 2px solid var(--border);
+  background: repeating-linear-gradient(
+    45deg,
+    var(--green-600),
+    var(--green-600) 16px,
+    var(--yellow-400) 16px,
+    var(--yellow-400) 32px
+  );
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.placeholder-box span {
+  background: var(--green-900);
+  color: var(--cream);
+  font-family: var(--font-display);
+  font-size: 0.8rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  padding: 8px 16px;
+}
+
 /* ===== USP ===== */
 
 .usp {
@@ -365,6 +417,12 @@ h1, h2, h3 {
   color: var(--yellow-400);
   font-size: clamp(1.8rem, 3.5vw, 2.4rem);
   margin-bottom: 48px;
+}
+
+.menu-heading + .menu-note {
+  margin: -32px 0 32px;
+  color: rgba(247, 242, 228, 0.7);
+  font-size: 0.9rem;
 }
 
 .menu-grid {
