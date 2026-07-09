@@ -68,4 +68,22 @@ document.addEventListener('DOMContentLoaded', () => {
   );
 
   revealTargets.forEach((el) => revealObserver.observe(el));
+
+  // Google-Maps-Karte erst nach Klick laden (kein automatischer Datenabruf bei Google)
+  document.querySelectorAll('.map-placeholder').forEach((placeholder) => {
+    const btn = placeholder.querySelector('.map-load-btn');
+    if (!btn) return;
+
+    btn.addEventListener('click', () => {
+      const iframe = document.createElement('iframe');
+      iframe.src = placeholder.dataset.mapSrc;
+      iframe.title = placeholder.dataset.mapTitle || 'Karte';
+      iframe.width = '100%';
+      iframe.height = '100%';
+      iframe.style.border = '0';
+      iframe.loading = 'lazy';
+      iframe.referrerPolicy = 'no-referrer-when-downgrade';
+      placeholder.replaceWith(iframe);
+    });
+  });
 });

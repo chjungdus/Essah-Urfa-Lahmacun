@@ -1,5 +1,21 @@
 /* ===== Essah-Urfa – Lahmacun ===== */
 
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 200 700;
+  font-display: swap;
+  src: url('../fonts/oswald.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url('../fonts/work-sans.woff2') format('woff2');
+}
+
 :root {
   --green-900: #142c1b;
   --green-700: #2c6b3a;
@@ -698,6 +714,91 @@ h1, h2, h3 {
   min-height: 320px;
 }
 
+.contact-map iframe {
+  display: block;
+}
+
+.map-placeholder {
+  height: 100%;
+  min-height: 320px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  text-align: center;
+  padding: 32px;
+  background: var(--green-900);
+  color: var(--cream);
+}
+
+.map-placeholder p {
+  max-width: 40ch;
+  font-size: 0.85rem;
+  color: rgba(247, 242, 228, 0.75);
+  margin: 0;
+}
+
+.map-placeholder p a {
+  color: var(--yellow-400);
+  border-bottom: 1px solid var(--yellow-400);
+}
+
+.map-load-btn {
+  font-family: var(--font-display);
+  font-size: 0.85rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  background: var(--yellow-400);
+  color: var(--green-900);
+  border: 2px solid var(--yellow-400);
+  padding: 12px 28px;
+  cursor: pointer;
+}
+
+.map-load-btn:hover {
+  background: transparent;
+  color: var(--yellow-400);
+}
+
+/* ===== Legal pages (Impressum / Datenschutz) ===== */
+
+.legal {
+  padding: 64px 0 96px;
+}
+
+.legal-inner {
+  max-width: 760px;
+}
+
+.legal h1 {
+  font-size: clamp(1.8rem, 3.5vw, 2.4rem);
+  margin-bottom: 24px;
+}
+
+.legal h2 {
+  font-size: 1.05rem;
+  margin-top: 40px;
+}
+
+.legal p {
+  color: var(--ink-soft);
+  max-width: 65ch;
+}
+
+.legal p a {
+  color: var(--green-700);
+  border-bottom: 1px solid var(--green-700);
+}
+
+.legal-note {
+  border: 2px solid var(--border);
+  background: var(--yellow-300);
+  color: var(--ink);
+  padding: 16px 20px;
+  max-width: 65ch;
+}
+
 /* ===== Footer ===== */
 
 .site-footer {
@@ -710,6 +811,10 @@ h1, h2, h3 {
 
 .footer-inner {
   text-align: center;
+}
+
+.footer-inner a {
+  border-bottom: 1px solid rgba(247, 242, 228, 0.4);
 }
 
 /* ===== Scroll-reveal ===== */

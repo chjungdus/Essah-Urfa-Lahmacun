@@ -5,9 +5,6 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Essah-Urfa &ndash; Lahmacun in D&uuml;sseldorf</title>
 <meta name="description" content="Essah-Urfa: frisch gebackene Lahmacun, D&uuml;r&uuml;m und mehr in D&uuml;sseldorf. K&ouml;lner Landstra&szlig;e 263, 40591 D&uuml;sseldorf.">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -334,11 +331,12 @@
         </dl>
       </div>
       <div class="contact-map">
-        <iframe
-          title="Standort Essah-Urfa auf der Karte"
-          src="https://www.google.com/maps?q=K%C3%B6lner%20Landstra%C3%9Fe%20263%2C%2040591%20D%C3%BCsseldorf&output=embed"
-          width="100%" height="100%" style="border:0;" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
-        </iframe>
+        <div class="map-placeholder"
+          data-map-src="https://www.google.com/maps?q=K%C3%B6lner%20Landstra%C3%9Fe%20263%2C%2040591%20D%C3%BCsseldorf&output=embed"
+          data-map-title="Standort Essah-Urfa auf der Karte">
+          <p>Beim Laden der Karte wird eine Verbindung zu Google-Servern hergestellt und deine IP-Adresse an Google &uuml;bertragen. Mehr dazu in der <a href="datenschutz.html">Datenschutzerkl&auml;rung</a>.</p>
+          <button type="button" class="map-load-btn">Karte laden</button>
+        </div>
       </div>
     </div>
   </section>
@@ -348,6 +346,7 @@
 <footer class="site-footer">
   <div class="section-inner footer-inner">
     <p>&copy; <span id="year"></span> Essah-Urfa &ndash; K&ouml;lner Landstra&szlig;e 263, 40591 D&uuml;sseldorf &middot; <a href="kiosk.html">Trinkhalle by Jero &rarr;</a></p>
+    <p><a href="impressum.html">Impressum</a> &middot; <a href="datenschutz.html">Datenschutz</a></p>
   </div>
 </footer>
 
