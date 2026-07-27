@@ -8,4 +8,8 @@
     <loc>https://essah-urfa.de/kiosk.html</loc>
     <priority>0.8</priority>
   </url>
+  <url>
+    <loc>https://essah-urfa.de/was-ist-lahmacun.html</loc>
+    <priority>0.6</priority>
+  </url>
 </urlset>

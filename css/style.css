@@ -799,6 +799,19 @@ h1, h2, h3 {
   max-width: 65ch;
 }
 
+.article-hero {
+  border: 2px solid var(--border);
+  max-width: 420px;
+  margin: 24px 0 32px;
+  overflow: hidden;
+}
+
+.article-hero img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
 /* ===== Footer ===== */
 
 .site-footer {
