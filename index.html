@@ -29,40 +29,620 @@
       "@type": "FastFoodRestaurant",
       "@id": "https://essah-urfa.de/#restaurant",
       "name": "Essah Urfa Lahmacun",
-      "alternateName": ["Essah-Urfa", "Essah Urfa", "essah_urfa"],
+      "alternateName": [
+        "Essah-Urfa",
+        "Essah Urfa",
+        "essah_urfa"
+      ],
       "image": "https://essah-urfa.de/images/web/hero.jpg",
       "telephone": "+49 211 97170255",
-      "servesCuisine": ["Türkisch", "Lahmacun", "Döner", "Pide", "Pizza"],
+      "servesCuisine": [
+        "Türkisch",
+        "Lahmacun",
+        "Döner",
+        "Pide",
+        "Pizza"
+      ],
       "priceRange": "€",
-      "areaServed": ["Düsseldorf", "Düsseldorf-Wersten", "Düsseldorf-Süd"],
+      "areaServed": [
+        "Düsseldorf",
+        "Düsseldorf-Wersten",
+        "Düsseldorf-Süd"
+      ],
       "address": {
         "@type": "PostalAddress",
         "streetAddress": "Kölner Landstraße 263",
         "postalCode": "40591",
         "addressLocality": "Düsseldorf",
+        "addressRegion": "Nordrhein-Westfalen",
         "addressCountry": "DE"
       },
+      "containedInPlace": {
+        "@type": "Place",
+        "name": "Düsseldorf-Wersten"
+      },
+      "description": "Lahmacun-Imbiss in Düsseldorf-Wersten: handgemachter Lahmacun nach Familienrezept, dazu Döner, Pide und Pizza.",
       "geo": {
         "@type": "GeoCoordinates",
         "latitude": 51.184088,
         "longitude": 6.820766
       },
       "openingHoursSpecification": [
-        { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday"], "opens": "11:00", "closes": "01:00" },
-        { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Friday", "Saturday", "Sunday"], "opens": "11:00", "closes": "02:00" }
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday"
+          ],
+          "opens": "11:00",
+          "closes": "01:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Friday",
+            "Saturday",
+            "Sunday"
+          ],
+          "opens": "11:00",
+          "closes": "02:00"
+        }
       ],
       "hasMap": "https://www.google.com/maps?q=51.184088,6.820766",
-      "hasMenu": "https://essah-urfa.de/#speisekarte",
-      "sameAs": ["https://www.instagram.com/essah_urfa/"],
+      "hasMenu": {
+        "@type": "Menu",
+        "url": "https://essah-urfa.de/#speisekarte",
+        "hasMenuSection": [
+          {
+            "@type": "MenuSection",
+            "name": "Lahmacun",
+            "hasMenuItem": [
+              {
+                "@type": "MenuItem",
+                "name": "Lahmacun ohne alles",
+                "offers": {
+                  "@type": "Offer",
+                  "price": "5.00",
+                  "priceCurrency": "EUR"
+                }
+              },
+              {
+                "@type": "MenuItem",
+                "name": "Lahmacun mit Salat",
+                "offers": {
+                  "@type": "Offer",
+                  "price": "6.50",
+                  "priceCurrency": "EUR"
+                }
+              },
+              {
+                "@type": "MenuItem",
+                "name": "Lahmacun vegetarisch",
+                "offers": {
+                  "@type": "Offer",
+                  "price": "5.50",
+                  "priceCurrency": "EUR"
+                }
+              },
+              {
+                "@type": "MenuItem",
+                "name": "Peymacun mit Käse",
+                "offers": {
+                  "@type": "Offer",
+                  "price": "6.50",
+                  "priceCurrency": "EUR"
+                }
+              },
+              {
+                "@type": "MenuItem",
+                "name": "Lahmacun mit Dönerfleisch",
+                "offers": {
+                  "@type": "Offer",
+                  "price": "8.00",
+                  "priceCurrency": "EUR"
+                }
+              }
+            ]
+          },
+          {
+            "@type": "MenuSection",
+            "name": "Döner",
+            "hasMenuItem": [
+              {
+                "@type": "MenuItem",
+                "name": "Döner Tasche",
+                "offers": {
+                  "@type": "Offer",
+                  "price": "7.00",
+                  "priceCurrency": "EUR"
+                }
+              },
+              {
+                "@type": "MenuItem",
+                "name": "Pom Döner",
+                "offers": {
+                  "@type": "Offer",
+                  "price": "7.00",
+                  "priceCurrency": "EUR"
+                }
+              },
+              {
+                "@type": "MenuItem",
+                "name": "Döner Dürüm",
+                "offers": {
+                  "@type": "Offer",
+                  "price": "8.00",
+                  "priceCurrency": "EUR"
+                }
+              },
+              {
+                "@type": "MenuItem",
+                "name": "Döner Teller klein",
+                "offers": {
+                  "@type": "Offer",
+                  "price": "9.00",
+                  "priceCurrency": "EUR"
+                }
+              },
+              {
+                "@type": "MenuItem",
+                "name": "Döner Teller groß",
+                "offers": {
+                  "@type": "Offer",
+                  "price": "12.00",
+                  "priceCurrency": "EUR"
+                }
+              },
+              {
+                "@type": "MenuItem",
+                "name": "Döner Portion klein",
+                "offers": {
+                  "@type": "Offer",
+                  "price": "6.00",
+                  "priceCurrency": "EUR"
+                }
+              },
+              {
+                "@type": "MenuItem",
+                "name": "Döner Portion mittel",
+                "offers": {
+                  "@type": "Offer",
+                  "price": "8.00",
+                  "priceCurrency": "EUR"
+                }
+              },
+              {
+                "@type": "MenuItem",
+                "name": "Döner Portion groß",
+                "offers": {
+                  "@type": "Offer",
+                  "price": "10.00",
+                  "priceCurrency": "EUR"
+                }
+              }
+            ]
+          },
+          {
+            "@type": "MenuSection",
+            "name": "Pide",
+            "hasMenuItem": [
+              {
+                "@type": "MenuItem",
+                "name": "Pide mit Käse",
+                "offers": {
+                  "@type": "Offer",
+                  "price": "8.50",
+                  "priceCurrency": "EUR"
+                }
+              },
+              {
+                "@type": "MenuItem",
+                "name": "Pide mit Sucuk",
+                "offers": {
+                  "@type": "Offer",
+                  "price": "8.50",
+                  "priceCurrency": "EUR"
+                }
+              },
+              {
+                "@type": "MenuItem",
+                "name": "Pide mit Spinat",
+                "offers": {
+                  "@type": "Offer",
+                  "price": "8.50",
+                  "priceCurrency": "EUR"
+                }
+              },
+              {
+                "@type": "MenuItem",
+                "name": "Pide mit Hackfleisch",
+                "offers": {
+                  "@type": "Offer",
+                  "price": "8.50",
+                  "priceCurrency": "EUR"
+                }
+              },
+              {
+                "@type": "MenuItem",
+                "name": "Pide mit Dönerfleisch",
+                "offers": {
+                  "@type": "Offer",
+                  "price": "10.00",
+                  "priceCurrency": "EUR"
+                }
+              },
+              {
+                "@type": "MenuItem",
+                "name": "Pide mit Pastirma",
+                "offers": {
+                  "@type": "Offer",
+                  "price": "9.50",
+                  "priceCurrency": "EUR"
+                }
+              },
+              {
+                "@type": "MenuItem",
+                "name": "Pide mit Gemischtem",
+                "offers": {
+                  "@type": "Offer",
+                  "price": "9.50",
+                  "priceCurrency": "EUR"
+                }
+              }
+            ]
+          },
+          {
+            "@type": "MenuSection",
+            "name": "Vegetarisch",
+            "hasMenuItem": [
+              {
+                "@type": "MenuItem",
+                "name": "Falafel Tasche",
+                "offers": {
+                  "@type": "Offer",
+                  "price": "5.50",
+                  "priceCurrency": "EUR"
+                }
+              },
+              {
+                "@type": "MenuItem",
+                "name": "Falafel Dürüm",
+                "offers": {
+                  "@type": "Offer",
+                  "price": "6.00",
+                  "priceCurrency": "EUR"
+                }
+              },
+              {
+                "@type": "MenuItem",
+                "name": "Falafel Teller",
+                "offers": {
+                  "@type": "Offer",
+                  "price": "10.00",
+                  "priceCurrency": "EUR"
+                }
+              },
+              {
+                "@type": "MenuItem",
+                "name": "Salat Tasche",
+                "offers": {
+                  "@type": "Offer",
+                  "price": "5.00",
+                  "priceCurrency": "EUR"
+                }
+              },
+              {
+                "@type": "MenuItem",
+                "name": "Pom Brot mit Salat",
+                "offers": {
+                  "@type": "Offer",
+                  "price": "6.00",
+                  "priceCurrency": "EUR"
+                }
+              },
+              {
+                "@type": "MenuItem",
+                "name": "Pom Falafel",
+                "offers": {
+                  "@type": "Offer",
+                  "price": "6.00",
+                  "priceCurrency": "EUR"
+                }
+              }
+            ]
+          },
+          {
+            "@type": "MenuSection",
+            "name": "Pizza (30cm)",
+            "hasMenuItem": [
+              {
+                "@type": "MenuItem",
+                "name": "Margherita",
+                "offers": {
+                  "@type": "Offer",
+                  "price": "7.50",
+                  "priceCurrency": "EUR"
+                }
+              },
+              {
+                "@type": "MenuItem",
+                "name": "Pizza Funghi",
+                "offers": {
+                  "@type": "Offer",
+                  "price": "8.00",
+                  "priceCurrency": "EUR"
+                }
+              },
+              {
+                "@type": "MenuItem",
+                "name": "Pizza Salami",
+                "offers": {
+                  "@type": "Offer",
+                  "price": "8.50",
+                  "priceCurrency": "EUR"
+                }
+              },
+              {
+                "@type": "MenuItem",
+                "name": "Pizza Thunfisch",
+                "offers": {
+                  "@type": "Offer",
+                  "price": "8.50",
+                  "priceCurrency": "EUR"
+                }
+              },
+              {
+                "@type": "MenuItem",
+                "name": "Pizza Schinken",
+                "offers": {
+                  "@type": "Offer",
+                  "price": "8.50",
+                  "priceCurrency": "EUR"
+                }
+              },
+              {
+                "@type": "MenuItem",
+                "name": "Pizza Vegetarisch",
+                "offers": {
+                  "@type": "Offer",
+                  "price": "9.00",
+                  "priceCurrency": "EUR"
+                }
+              },
+              {
+                "@type": "MenuItem",
+                "name": "Pizza Hawaii",
+                "offers": {
+                  "@type": "Offer",
+                  "price": "9.00",
+                  "priceCurrency": "EUR"
+                }
+              },
+              {
+                "@type": "MenuItem",
+                "name": "Pizza Mozarella",
+                "offers": {
+                  "@type": "Offer",
+                  "price": "9.00",
+                  "priceCurrency": "EUR"
+                }
+              },
+              {
+                "@type": "MenuItem",
+                "name": "Pizza Döner",
+                "offers": {
+                  "@type": "Offer",
+                  "price": "10.00",
+                  "priceCurrency": "EUR"
+                }
+              },
+              {
+                "@type": "MenuItem",
+                "name": "Pizza Sucuk",
+                "offers": {
+                  "@type": "Offer",
+                  "price": "8.50",
+                  "priceCurrency": "EUR"
+                }
+              },
+              {
+                "@type": "MenuItem",
+                "name": "Pizza Urfa",
+                "offers": {
+                  "@type": "Offer",
+                  "price": "10.00",
+                  "priceCurrency": "EUR"
+                }
+              }
+            ]
+          },
+          {
+            "@type": "MenuSection",
+            "name": "Toast & Suppe",
+            "hasMenuItem": [
+              {
+                "@type": "MenuItem",
+                "name": "Toast mit Käse",
+                "offers": {
+                  "@type": "Offer",
+                  "price": "4.50",
+                  "priceCurrency": "EUR"
+                }
+              },
+              {
+                "@type": "MenuItem",
+                "name": "Toast mit Sucuk & Käse",
+                "offers": {
+                  "@type": "Offer",
+                  "price": "5.50",
+                  "priceCurrency": "EUR"
+                }
+              },
+              {
+                "@type": "MenuItem",
+                "name": "Linsensuppe",
+                "offers": {
+                  "@type": "Offer",
+                  "price": "5.00",
+                  "priceCurrency": "EUR"
+                }
+              },
+              {
+                "@type": "MenuItem",
+                "name": "Tägliche Suppe",
+                "offers": {
+                  "@type": "Offer",
+                  "price": "5.00",
+                  "priceCurrency": "EUR"
+                }
+              }
+            ]
+          },
+          {
+            "@type": "MenuSection",
+            "name": "Pommes",
+            "hasMenuItem": [
+              {
+                "@type": "MenuItem",
+                "name": "Pommes klein",
+                "offers": {
+                  "@type": "Offer",
+                  "price": "2.50",
+                  "priceCurrency": "EUR"
+                }
+              },
+              {
+                "@type": "MenuItem",
+                "name": "Pommes groß",
+                "offers": {
+                  "@type": "Offer",
+                  "price": "3.50",
+                  "priceCurrency": "EUR"
+                }
+              }
+            ]
+          },
+          {
+            "@type": "MenuSection",
+            "name": "Getränke",
+            "hasMenuItem": [
+              {
+                "@type": "MenuItem",
+                "name": "Cola / Fanta / Sprite / Mezzo Mix 0,33l",
+                "offers": {
+                  "@type": "Offer",
+                  "price": "2.00",
+                  "priceCurrency": "EUR"
+                }
+              },
+              {
+                "@type": "MenuItem",
+                "name": "Cola / Fanta / Sprite / Mezzo Mix 0,5l",
+                "offers": {
+                  "@type": "Offer",
+                  "price": "2.50",
+                  "priceCurrency": "EUR"
+                }
+              },
+              {
+                "@type": "MenuItem",
+                "name": "Cola / Fanta / Sprite 1l",
+                "offers": {
+                  "@type": "Offer",
+                  "price": "3.00",
+                  "priceCurrency": "EUR"
+                }
+              },
+              {
+                "@type": "MenuItem",
+                "name": "Ayran 0,25l",
+                "offers": {
+                  "@type": "Offer",
+                  "price": "1.50",
+                  "priceCurrency": "EUR"
+                }
+              },
+              {
+                "@type": "MenuItem",
+                "name": "Wasser",
+                "offers": {
+                  "@type": "Offer",
+                  "price": "1.50",
+                  "priceCurrency": "EUR"
+                }
+              },
+              {
+                "@type": "MenuItem",
+                "name": "Elephant Bay 0,33l",
+                "offers": {
+                  "@type": "Offer",
+                  "price": "3.00",
+                  "priceCurrency": "EUR"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "sameAs": [
+        "https://www.instagram.com/essah_urfa/"
+      ],
       "url": "https://essah-urfa.de/"
     },
     {
       "@type": "WebSite",
       "@id": "https://essah-urfa.de/#website",
       "name": "Essah Urfa Lahmacun",
-      "alternateName": ["Essah-Urfa", "Essah Urfa"],
+      "alternateName": [
+        "Essah-Urfa",
+        "Essah Urfa"
+      ],
       "url": "https://essah-urfa.de/",
-      "publisher": { "@id": "https://essah-urfa.de/#restaurant" }
+      "publisher": {
+        "@id": "https://essah-urfa.de/#restaurant"
+      }
+    }
+  ]
+}
+</script>
+<script type="application/ld+json" id="ld-faq">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Kann ich bei euch auch vor Ort essen?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ja, wir haben gemütliche Sitzplätze – auch direkt am Fenster mit Blick zur Straße."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Habt ihr auch vegetarische Gerichte?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Klar. Zum Beispiel Falafel Tasche, Falafel Dürüm, Falafel Teller oder Lahmacun vegetarisch."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Gibt es bei euch nur Lahmacun?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Nein. Neben Lahmacun findest du bei uns Döner, Pide, Pizza, Toast, Suppen, Pommes und Getränke. Was Lahmacun von Döner und Pide unterscheidet, erklären wir in unserem Lahmacun-Ratgeber."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Wie erreiche ich euch am schnellsten?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ruf uns einfach an unter 0211 97170255 oder komm direkt vorbei an der Kölner Landstraße 263 in Düsseldorf."
+      }
     }
   ]
 }
@@ -101,13 +681,14 @@
       <a href="#bewertungen">Bewertungen</a>
       <a href="#faq">FAQ</a>
       <a href="#kontakt">Kontakt</a>
+      <a href="was-ist-lahmacun.html">Ratgeber</a>
     </nav>
   </div>
 </header>
 
 <main>
 
-  <section class="hero" id="start" style="background-image: linear-gradient(160deg, rgba(20,44,27,0.88), rgba(44,107,58,0.82)), url('images/web/hero.jpg');">
+  <section class="hero" id="start" style="background-image: linear-gradient(160deg, rgba(20,44,27,0.88), rgba(44,107,58,0.82)), url('images/web/hero.webp');">
     <div class="hero-content">
       <p class="hero-eyebrow">Original Urfa Art &middot; frisch aus dem Ofen</p>
       <h1>Essah Urfa Lahmacun: Traditioneller handgemachter Lahmacun in D&uuml;sseldorf</h1>
@@ -136,13 +717,14 @@
         <p>Als kleiner, familiengef&uuml;hrter Imbiss in Wersten freuen wir uns &uuml;ber Stammg&auml;ste aus der Nachbarschaft genauso wie &uuml;ber alle, die aus anderen Teilen von D&uuml;sseldorf f&uuml;r ein gutes St&uuml;ck Lahmacun zu uns kommen. Bei uns musst du dein Essen nicht im Stehen essen: Wir haben gem&uuml;tliche Sitzpl&auml;tze, an denen du in Ruhe essen kannst &ndash; dazu einen frischen Ayran oder ein kaltes Getr&auml;nk. Ob spontan auf dem Heimweg durch Wersten oder als geplanter Besuch aus D&uuml;sseldorf-S&uuml;d: Schau vorbei, ruf an oder komm einfach rein.</p>
       </div>
       <div class="about-media">
-        <img src="images/web/about.jpg" alt="Theke bei Essah-Urfa mit frischen Zutaten und Drehspie&szlig;" loading="lazy" width="1200" height="900">
+        <img src="images/web/about.webp" width="1200" height="900" alt="Theke bei Essah Urfa Lahmacun in D&uuml;sseldorf-Wersten mit frischen Zutaten und D&ouml;nerspie&szlig;" loading="lazy">
       </div>
     </div>
   </section>
 
   <section class="usp">
     <div class="section-inner">
+      <h2 class="visually-hidden">Warum Essah Urfa?</h2>
       <div class="usp-grid">
         <div class="usp-card">
           <span class="usp-number">01</span>
@@ -304,22 +886,22 @@
       <h2>Einblicke aus dem Laden</h2>
       <div class="gallery-grid">
         <div class="gallery-item gallery-item--wide">
-          <img src="images/web/gallery-1.jpg" alt="Frische Salate und Zutaten an der Theke, D&ouml;nerspie&szlig; im Hintergrund" loading="lazy">
+          <img src="images/web/gallery-1.webp" width="750" height="1000" alt="Frische Salate und Zutaten f&uuml;r Lahmacun und D&ouml;ner an der Theke von Essah Urfa" loading="lazy">
         </div>
         <div class="gallery-item">
-          <img src="images/web/gallery-2.jpg" alt="Sitzbereich bei Essah-Urfa" loading="lazy">
+          <img src="images/web/gallery-2.webp" width="750" height="1000" alt="Sitzbereich im Lahmacun-Imbiss Essah Urfa in D&uuml;sseldorf-Wersten" loading="lazy">
         </div>
         <div class="gallery-item">
-          <img src="images/web/gallery-3.jpg" alt="Gem&uuml;tliche Sitzecke mit Ledersitzen" loading="lazy">
+          <img src="images/web/gallery-3.webp" width="750" height="1000" alt="Gem&uuml;tliche Sitzecke mit Ledersitzen bei Essah Urfa Lahmacun" loading="lazy">
         </div>
         <div class="gallery-item">
-          <img src="images/web/gallery-4.jpg" alt="Sitzpl&auml;tze am Fenster" loading="lazy">
+          <img src="images/web/gallery-4.webp" width="750" height="1000" alt="Sitzpl&auml;tze am Fenster mit Blick auf die K&ouml;lner Landstra&szlig;e" loading="lazy">
         </div>
         <div class="gallery-item gallery-item--wide">
-          <img src="images/web/gallery-5.jpg" alt="Frisch gebackene Pide mit Gew&uuml;rzen und Limette" loading="lazy">
+          <img src="images/web/gallery-5.webp" width="869" height="1000" alt="Frisch gebackene Pide mit Spinat und K&auml;se, dazu Gew&uuml;rze und Limette" loading="lazy">
         </div>
         <div class="gallery-item">
-          <img src="images/web/gallery-6.jpg" alt="Getr&auml;nkek&uuml;hlschrank mit alkoholfreien Cocktails und Limonaden" loading="lazy">
+          <img src="images/web/gallery-6.webp" width="750" height="1000" alt="Getr&auml;nkek&uuml;hlschrank mit alkoholfreien Cocktails und Limonaden bei Essah Urfa" loading="lazy">
         </div>
       </div>
     </div>
@@ -369,7 +951,7 @@
         </details>
         <details class="faq-item">
           <summary>Gibt es bei euch nur Lahmacun?</summary>
-          <p>Nein. Neben Lahmacun findest du bei uns D&ouml;ner, Pide, Pizza, Toast, Suppen, Pommes und Getr&auml;nke.</p>
+          <p>Nein. Neben Lahmacun findest du bei uns D&ouml;ner, Pide, Pizza, Toast, Suppen, Pommes und Getr&auml;nke. Was Lahmacun von D&ouml;ner und Pide unterscheidet, erkl&auml;ren wir in unserem <a href="was-ist-lahmacun.html">Lahmacun-Ratgeber</a>.</p>
         </details>
         <details class="faq-item">
           <summary>Wie erreiche ich euch am schnellsten?</summary>

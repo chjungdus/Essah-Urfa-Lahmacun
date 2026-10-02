@@ -51,5 +51,25 @@
   <url>
     <loc>https://essah-urfa.de/was-ist-lahmacun.html</loc>
     <lastmod>2026-10-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://essah-urfa.de/was-ist-lahmacun.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://essah-urfa.de/en/was-ist-lahmacun.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://essah-urfa.de/tr/was-ist-lahmacun.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://essah-urfa.de/was-ist-lahmacun.html"/>
+  </url>
+  <url>
+    <loc>https://essah-urfa.de/en/was-ist-lahmacun.html</loc>
+    <lastmod>2026-10-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://essah-urfa.de/was-ist-lahmacun.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://essah-urfa.de/en/was-ist-lahmacun.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://essah-urfa.de/tr/was-ist-lahmacun.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://essah-urfa.de/was-ist-lahmacun.html"/>
+  </url>
+  <url>
+    <loc>https://essah-urfa.de/tr/was-ist-lahmacun.html</loc>
+    <lastmod>2026-10-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://essah-urfa.de/was-ist-lahmacun.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://essah-urfa.de/en/was-ist-lahmacun.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://essah-urfa.de/tr/was-ist-lahmacun.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://essah-urfa.de/was-ist-lahmacun.html"/>
   </url>
 </urlset>

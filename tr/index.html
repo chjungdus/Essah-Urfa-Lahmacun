@@ -29,40 +29,620 @@
       "@type": "FastFoodRestaurant",
       "@id": "https://essah-urfa.de/#restaurant",
       "name": "Essah Urfa Lahmacun",
-      "alternateName": ["Essah-Urfa", "Essah Urfa", "essah_urfa"],
+      "alternateName": [
+        "Essah-Urfa",
+        "Essah Urfa",
+        "essah_urfa"
+      ],
       "image": "https://essah-urfa.de/images/web/hero.jpg",
       "telephone": "+49 211 97170255",
-      "servesCuisine": ["Türk mutfağı", "Lahmacun", "Döner", "Pide", "Pizza"],
+      "servesCuisine": [
+        "Türk mutfağı",
+        "Lahmacun",
+        "Döner",
+        "Pide",
+        "Pizza"
+      ],
       "priceRange": "€",
-      "areaServed": ["Düsseldorf", "Düsseldorf-Wersten", "Düsseldorf-Süd"],
+      "areaServed": [
+        "Düsseldorf",
+        "Düsseldorf-Wersten",
+        "Düsseldorf-Süd"
+      ],
       "address": {
         "@type": "PostalAddress",
         "streetAddress": "Kölner Landstraße 263",
         "postalCode": "40591",
         "addressLocality": "Düsseldorf",
+        "addressRegion": "Nordrhein-Westfalen",
         "addressCountry": "DE"
       },
+      "containedInPlace": {
+        "@type": "Place",
+        "name": "Düsseldorf-Wersten"
+      },
+      "description": "Düsseldorf-Wersten’de lahmacun salonu: aile tarifiyle elde açılan lahmacun, ayrıca döner, pide ve pizza.",
       "geo": {
         "@type": "GeoCoordinates",
         "latitude": 51.184088,
         "longitude": 6.820766
       },
       "openingHoursSpecification": [
-        { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday"], "opens": "11:00", "closes": "01:00" },
-        { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Friday", "Saturday", "Sunday"], "opens": "11:00", "closes": "02:00" }
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday"
+          ],
+          "opens": "11:00",
+          "closes": "01:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Friday",
+            "Saturday",
+            "Sunday"
+          ],
+          "opens": "11:00",
+          "closes": "02:00"
+        }
       ],
       "hasMap": "https://www.google.com/maps?q=51.184088,6.820766",
-      "hasMenu": "https://essah-urfa.de/#speisekarte",
-      "sameAs": ["https://www.instagram.com/essah_urfa/"],
+      "hasMenu": {
+        "@type": "Menu",
+        "url": "https://essah-urfa.de/tr/#speisekarte",
+        "hasMenuSection": [
+          {
+            "@type": "MenuSection",
+            "name": "Lahmacun",
+            "hasMenuItem": [
+              {
+                "@type": "MenuItem",
+                "name": "Sade lahmacun",
+                "offers": {
+                  "@type": "Offer",
+                  "price": "5.00",
+                  "priceCurrency": "EUR"
+                }
+              },
+              {
+                "@type": "MenuItem",
+                "name": "Salatalı lahmacun",
+                "offers": {
+                  "@type": "Offer",
+                  "price": "6.50",
+                  "priceCurrency": "EUR"
+                }
+              },
+              {
+                "@type": "MenuItem",
+                "name": "Vejetaryen lahmacun",
+                "offers": {
+                  "@type": "Offer",
+                  "price": "5.50",
+                  "priceCurrency": "EUR"
+                }
+              },
+              {
+                "@type": "MenuItem",
+                "name": "Peynirli peymacun",
+                "offers": {
+                  "@type": "Offer",
+                  "price": "6.50",
+                  "priceCurrency": "EUR"
+                }
+              },
+              {
+                "@type": "MenuItem",
+                "name": "Döner etli lahmacun",
+                "offers": {
+                  "@type": "Offer",
+                  "price": "8.00",
+                  "priceCurrency": "EUR"
+                }
+              }
+            ]
+          },
+          {
+            "@type": "MenuSection",
+            "name": "Döner",
+            "hasMenuItem": [
+              {
+                "@type": "MenuItem",
+                "name": "Ekmek arası döner",
+                "offers": {
+                  "@type": "Offer",
+                  "price": "7.00",
+                  "priceCurrency": "EUR"
+                }
+              },
+              {
+                "@type": "MenuItem",
+                "name": "Pom döner (patatesli)",
+                "offers": {
+                  "@type": "Offer",
+                  "price": "7.00",
+                  "priceCurrency": "EUR"
+                }
+              },
+              {
+                "@type": "MenuItem",
+                "name": "Dürüm döner",
+                "offers": {
+                  "@type": "Offer",
+                  "price": "8.00",
+                  "priceCurrency": "EUR"
+                }
+              },
+              {
+                "@type": "MenuItem",
+                "name": "Döner tabağı, küçük",
+                "offers": {
+                  "@type": "Offer",
+                  "price": "9.00",
+                  "priceCurrency": "EUR"
+                }
+              },
+              {
+                "@type": "MenuItem",
+                "name": "Döner tabağı, büyük",
+                "offers": {
+                  "@type": "Offer",
+                  "price": "12.00",
+                  "priceCurrency": "EUR"
+                }
+              },
+              {
+                "@type": "MenuItem",
+                "name": "Porsiyon döner, küçük",
+                "offers": {
+                  "@type": "Offer",
+                  "price": "6.00",
+                  "priceCurrency": "EUR"
+                }
+              },
+              {
+                "@type": "MenuItem",
+                "name": "Porsiyon döner, orta",
+                "offers": {
+                  "@type": "Offer",
+                  "price": "8.00",
+                  "priceCurrency": "EUR"
+                }
+              },
+              {
+                "@type": "MenuItem",
+                "name": "Porsiyon döner, büyük",
+                "offers": {
+                  "@type": "Offer",
+                  "price": "10.00",
+                  "priceCurrency": "EUR"
+                }
+              }
+            ]
+          },
+          {
+            "@type": "MenuSection",
+            "name": "Pide",
+            "hasMenuItem": [
+              {
+                "@type": "MenuItem",
+                "name": "Kaşarlı pide",
+                "offers": {
+                  "@type": "Offer",
+                  "price": "8.50",
+                  "priceCurrency": "EUR"
+                }
+              },
+              {
+                "@type": "MenuItem",
+                "name": "Sucuklu pide",
+                "offers": {
+                  "@type": "Offer",
+                  "price": "8.50",
+                  "priceCurrency": "EUR"
+                }
+              },
+              {
+                "@type": "MenuItem",
+                "name": "Ispanaklı pide",
+                "offers": {
+                  "@type": "Offer",
+                  "price": "8.50",
+                  "priceCurrency": "EUR"
+                }
+              },
+              {
+                "@type": "MenuItem",
+                "name": "Kıymalı pide",
+                "offers": {
+                  "@type": "Offer",
+                  "price": "8.50",
+                  "priceCurrency": "EUR"
+                }
+              },
+              {
+                "@type": "MenuItem",
+                "name": "Döner etli pide",
+                "offers": {
+                  "@type": "Offer",
+                  "price": "10.00",
+                  "priceCurrency": "EUR"
+                }
+              },
+              {
+                "@type": "MenuItem",
+                "name": "Pastırmalı pide",
+                "offers": {
+                  "@type": "Offer",
+                  "price": "9.50",
+                  "priceCurrency": "EUR"
+                }
+              },
+              {
+                "@type": "MenuItem",
+                "name": "Karışık pide",
+                "offers": {
+                  "@type": "Offer",
+                  "price": "9.50",
+                  "priceCurrency": "EUR"
+                }
+              }
+            ]
+          },
+          {
+            "@type": "MenuSection",
+            "name": "Vejetaryen",
+            "hasMenuItem": [
+              {
+                "@type": "MenuItem",
+                "name": "Ekmek arası falafel",
+                "offers": {
+                  "@type": "Offer",
+                  "price": "5.50",
+                  "priceCurrency": "EUR"
+                }
+              },
+              {
+                "@type": "MenuItem",
+                "name": "Dürüm falafel",
+                "offers": {
+                  "@type": "Offer",
+                  "price": "6.00",
+                  "priceCurrency": "EUR"
+                }
+              },
+              {
+                "@type": "MenuItem",
+                "name": "Falafel tabağı",
+                "offers": {
+                  "@type": "Offer",
+                  "price": "10.00",
+                  "priceCurrency": "EUR"
+                }
+              },
+              {
+                "@type": "MenuItem",
+                "name": "Ekmek arası salata",
+                "offers": {
+                  "@type": "Offer",
+                  "price": "5.00",
+                  "priceCurrency": "EUR"
+                }
+              },
+              {
+                "@type": "MenuItem",
+                "name": "Patatesli salatalı ekmek",
+                "offers": {
+                  "@type": "Offer",
+                  "price": "6.00",
+                  "priceCurrency": "EUR"
+                }
+              },
+              {
+                "@type": "MenuItem",
+                "name": "Pom falafel (patatesli)",
+                "offers": {
+                  "@type": "Offer",
+                  "price": "6.00",
+                  "priceCurrency": "EUR"
+                }
+              }
+            ]
+          },
+          {
+            "@type": "MenuSection",
+            "name": "Pizza (30cm)",
+            "hasMenuItem": [
+              {
+                "@type": "MenuItem",
+                "name": "Margherita",
+                "offers": {
+                  "@type": "Offer",
+                  "price": "7.50",
+                  "priceCurrency": "EUR"
+                }
+              },
+              {
+                "@type": "MenuItem",
+                "name": "Mantarlı pizza",
+                "offers": {
+                  "@type": "Offer",
+                  "price": "8.00",
+                  "priceCurrency": "EUR"
+                }
+              },
+              {
+                "@type": "MenuItem",
+                "name": "Salamlı pizza",
+                "offers": {
+                  "@type": "Offer",
+                  "price": "8.50",
+                  "priceCurrency": "EUR"
+                }
+              },
+              {
+                "@type": "MenuItem",
+                "name": "Ton balıklı pizza",
+                "offers": {
+                  "@type": "Offer",
+                  "price": "8.50",
+                  "priceCurrency": "EUR"
+                }
+              },
+              {
+                "@type": "MenuItem",
+                "name": "Jambonlu pizza",
+                "offers": {
+                  "@type": "Offer",
+                  "price": "8.50",
+                  "priceCurrency": "EUR"
+                }
+              },
+              {
+                "@type": "MenuItem",
+                "name": "Vejetaryen pizza",
+                "offers": {
+                  "@type": "Offer",
+                  "price": "9.00",
+                  "priceCurrency": "EUR"
+                }
+              },
+              {
+                "@type": "MenuItem",
+                "name": "Pizza Hawaii",
+                "offers": {
+                  "@type": "Offer",
+                  "price": "9.00",
+                  "priceCurrency": "EUR"
+                }
+              },
+              {
+                "@type": "MenuItem",
+                "name": "Pizza Mozarella",
+                "offers": {
+                  "@type": "Offer",
+                  "price": "9.00",
+                  "priceCurrency": "EUR"
+                }
+              },
+              {
+                "@type": "MenuItem",
+                "name": "Dönerli pizza",
+                "offers": {
+                  "@type": "Offer",
+                  "price": "10.00",
+                  "priceCurrency": "EUR"
+                }
+              },
+              {
+                "@type": "MenuItem",
+                "name": "Sucuklu pizza",
+                "offers": {
+                  "@type": "Offer",
+                  "price": "8.50",
+                  "priceCurrency": "EUR"
+                }
+              },
+              {
+                "@type": "MenuItem",
+                "name": "Pizza Urfa",
+                "offers": {
+                  "@type": "Offer",
+                  "price": "10.00",
+                  "priceCurrency": "EUR"
+                }
+              }
+            ]
+          },
+          {
+            "@type": "MenuSection",
+            "name": "Tost & çorba",
+            "hasMenuItem": [
+              {
+                "@type": "MenuItem",
+                "name": "Kaşarlı tost",
+                "offers": {
+                  "@type": "Offer",
+                  "price": "4.50",
+                  "priceCurrency": "EUR"
+                }
+              },
+              {
+                "@type": "MenuItem",
+                "name": "Sucuklu kaşarlı tost",
+                "offers": {
+                  "@type": "Offer",
+                  "price": "5.50",
+                  "priceCurrency": "EUR"
+                }
+              },
+              {
+                "@type": "MenuItem",
+                "name": "Mercimek çorbası",
+                "offers": {
+                  "@type": "Offer",
+                  "price": "5.00",
+                  "priceCurrency": "EUR"
+                }
+              },
+              {
+                "@type": "MenuItem",
+                "name": "Günün çorbası",
+                "offers": {
+                  "@type": "Offer",
+                  "price": "5.00",
+                  "priceCurrency": "EUR"
+                }
+              }
+            ]
+          },
+          {
+            "@type": "MenuSection",
+            "name": "Patates kızartması",
+            "hasMenuItem": [
+              {
+                "@type": "MenuItem",
+                "name": "Patates, küçük",
+                "offers": {
+                  "@type": "Offer",
+                  "price": "2.50",
+                  "priceCurrency": "EUR"
+                }
+              },
+              {
+                "@type": "MenuItem",
+                "name": "Patates, büyük",
+                "offers": {
+                  "@type": "Offer",
+                  "price": "3.50",
+                  "priceCurrency": "EUR"
+                }
+              }
+            ]
+          },
+          {
+            "@type": "MenuSection",
+            "name": "İçecekler",
+            "hasMenuItem": [
+              {
+                "@type": "MenuItem",
+                "name": "Cola / Fanta / Sprite / Mezzo Mix 0,33l",
+                "offers": {
+                  "@type": "Offer",
+                  "price": "2.00",
+                  "priceCurrency": "EUR"
+                }
+              },
+              {
+                "@type": "MenuItem",
+                "name": "Cola / Fanta / Sprite / Mezzo Mix 0,5l",
+                "offers": {
+                  "@type": "Offer",
+                  "price": "2.50",
+                  "priceCurrency": "EUR"
+                }
+              },
+              {
+                "@type": "MenuItem",
+                "name": "Cola / Fanta / Sprite 1l",
+                "offers": {
+                  "@type": "Offer",
+                  "price": "3.00",
+                  "priceCurrency": "EUR"
+                }
+              },
+              {
+                "@type": "MenuItem",
+                "name": "Ayran 0,25l",
+                "offers": {
+                  "@type": "Offer",
+                  "price": "1.50",
+                  "priceCurrency": "EUR"
+                }
+              },
+              {
+                "@type": "MenuItem",
+                "name": "Su",
+                "offers": {
+                  "@type": "Offer",
+                  "price": "1.50",
+                  "priceCurrency": "EUR"
+                }
+              },
+              {
+                "@type": "MenuItem",
+                "name": "Elephant Bay 0,33l",
+                "offers": {
+                  "@type": "Offer",
+                  "price": "3.00",
+                  "priceCurrency": "EUR"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "sameAs": [
+        "https://www.instagram.com/essah_urfa/"
+      ],
       "url": "https://essah-urfa.de/"
     },
     {
       "@type": "WebSite",
       "@id": "https://essah-urfa.de/#website",
       "name": "Essah Urfa Lahmacun",
-      "alternateName": ["Essah-Urfa", "Essah Urfa"],
+      "alternateName": [
+        "Essah-Urfa",
+        "Essah Urfa"
+      ],
       "url": "https://essah-urfa.de/",
-      "publisher": { "@id": "https://essah-urfa.de/#restaurant" }
+      "publisher": {
+        "@id": "https://essah-urfa.de/#restaurant"
+      }
+    }
+  ]
+}
+</script>
+<script type="application/ld+json" id="ld-faq">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Yerinde yemek yiyebilir miyim?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Evet, rahat oturma yerlerimiz var – sokağa bakan pencere kenarında da."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Vejetaryen yemekleriniz var mı?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Tabii. Örneğin ekmek arası falafel, dürüm falafel, falafel tabağı ya da vejetaryen lahmacun."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Sadece lahmacun mu var?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Hayır. Lahmacunun yanı sıra döner, pide, pizza, tost, çorba, patates kızartması ve içecekler de var. Lahmacunu döner ve pideden ayıran şeyi lahmacun rehberimizde anlatıyoruz."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Size en hızlı nasıl ulaşırım?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Bizi 0211 97170255 numarasından arayın ya da doğrudan Düsseldorf’taki Kölner Landstraße 263 adresine uğrayın."
+      }
     }
   ]
 }
@@ -101,13 +681,14 @@
       <a href="#bewertungen">Yorumlar</a>
       <a href="#faq">SSS</a>
       <a href="#kontakt">İletişim</a>
+      <a href="was-ist-lahmacun.html">Rehber</a>
     </nav>
   </div>
 </header>
 
 <main>
 
-  <section class="hero" id="start" style="background-image: linear-gradient(160deg, rgba(20,44,27,0.88), rgba(44,107,58,0.82)), url('../images/web/hero.jpg');">
+  <section class="hero" id="start" style="background-image: linear-gradient(160deg, rgba(20,44,27,0.88), rgba(44,107,58,0.82)), url('../images/web/hero.webp');">
     <div class="hero-content">
       <p class="hero-eyebrow">Orijinal Urfa usulü · fırından taze</p>
       <h1>Essah Urfa Lahmacun: Düsseldorf’ta geleneksel, elde açılan lahmacun</h1>
@@ -136,13 +717,14 @@
         <p>Wersten’de küçük bir aile işletmesi olarak hem mahalleden gelen müdavimlerimizi hem de güzel bir lahmacun için Düsseldorf’un diğer semtlerinden gelen herkesi memnuniyetle ağırlıyoruz. Bizde ayakta yemek zorunda değilsiniz: Rahat oturma yerlerimizde yemeğinizi huzurla yiyebilir, yanında taze bir ayran ya da soğuk bir içecek içebilirsiniz. İster Wersten’den eve dönerken uğrayın ister Düsseldorf’un güneyinden planlı gelin: Buyurun, arayın ya da doğrudan içeri girin.</p>
       </div>
       <div class="about-media">
-        <img src="../images/web/about.jpg" alt="Essah Urfa’da taze malzemeler ve döner şişiyle tezgâh" loading="lazy" width="1200" height="900">
+        <img src="../images/web/about.webp" width="1200" height="900" alt="Düsseldorf-Wersten’deki Essah Urfa Lahmacun’da taze malzemeler ve döner şişiyle tezgâh" loading="lazy">
       </div>
     </div>
   </section>
 
   <section class="usp">
     <div class="section-inner">
+      <h2 class="visually-hidden">Neden Essah Urfa?</h2>
       <div class="usp-grid">
         <div class="usp-card">
           <span class="usp-number">01</span>
@@ -304,22 +886,22 @@
       <h2>Dükkândan kareler</h2>
       <div class="gallery-grid">
         <div class="gallery-item gallery-item--wide">
-          <img src="../images/web/gallery-1.jpg" alt="Tezgâhta taze salatalar ve malzemeler, arkada döner şişi" loading="lazy">
+          <img src="../images/web/gallery-1.webp" width="750" height="1000" alt="Essah Urfa tezgâhında lahmacun ve döner için taze salatalar ve malzemeler" loading="lazy">
         </div>
         <div class="gallery-item">
-          <img src="../images/web/gallery-2.jpg" alt="Essah Urfa’da oturma alanı" loading="lazy">
+          <img src="../images/web/gallery-2.webp" width="750" height="1000" alt="Düsseldorf-Wersten’deki Essah Urfa lahmacun salonunda oturma alanı" loading="lazy">
         </div>
         <div class="gallery-item">
-          <img src="../images/web/gallery-3.jpg" alt="Deri koltuklu rahat köşe" loading="lazy">
+          <img src="../images/web/gallery-3.webp" width="750" height="1000" alt="Essah Urfa Lahmacun’da deri koltuklu rahat köşe" loading="lazy">
         </div>
         <div class="gallery-item">
-          <img src="../images/web/gallery-4.jpg" alt="Pencere kenarında oturma yerleri" loading="lazy">
+          <img src="../images/web/gallery-4.webp" width="750" height="1000" alt="Kölner Landstraße’ye bakan pencere kenarı oturma yerleri" loading="lazy">
         </div>
         <div class="gallery-item gallery-item--wide">
-          <img src="../images/web/gallery-5.jpg" alt="Baharat ve misket limonuyla fırından yeni çıkmış pide" loading="lazy">
+          <img src="../images/web/gallery-5.webp" width="869" height="1000" alt="Baharat ve misket limonuyla fırından yeni çıkmış ıspanaklı peynirli pide" loading="lazy">
         </div>
         <div class="gallery-item">
-          <img src="../images/web/gallery-6.jpg" alt="Alkolsüz kokteyl ve limonatalarla içecek dolabı" loading="lazy">
+          <img src="../images/web/gallery-6.webp" width="750" height="1000" alt="Essah Urfa’da alkolsüz kokteyl ve limonatalarla içecek dolabı" loading="lazy">
         </div>
       </div>
     </div>
@@ -369,7 +951,7 @@
         </details>
         <details class="faq-item">
           <summary>Sadece lahmacun mu var?</summary>
-          <p>Hayır. Lahmacunun yanı sıra döner, pide, pizza, tost, çorba, patates kızartması ve içecekler de var.</p>
+          <p>Hayır. Lahmacunun yanı sıra döner, pide, pizza, tost, çorba, patates kızartması ve içecekler de var. Lahmacunu döner ve pideden ayıran şeyi <a href="was-ist-lahmacun.html">lahmacun rehberimizde</a> anlatıyoruz.</p>
         </details>
         <details class="faq-item">
           <summary>Size en hızlı nasıl ulaşırım?</summary>
@@ -422,7 +1004,7 @@
 <footer class="site-footer">
   <div class="section-inner footer-inner">
     <p>&copy; <span id="year"></span> Essah Urfa Lahmacun – Kölner Landstraße 263, 40591 Düsseldorf · <a href="https://www.instagram.com/essah_urfa/" target="_blank" rel="noopener">Instagram</a> · <a href="kiosk.html">Trinkhalle by Fero →</a></p>
-    <p><a href="../was-ist-lahmacun.html">Lahmacun nedir? (Almanca)</a> · <a href="../impressum.html">Künye (Impressum)</a> · <a href="../datenschutz.html">Gizlilik</a></p>
+    <p><a href="was-ist-lahmacun.html">Lahmacun nedir?</a> · <a href="../impressum.html">Künye (Impressum)</a> · <a href="../datenschutz.html">Gizlilik</a></p>
   </div>
 </footer>
 
