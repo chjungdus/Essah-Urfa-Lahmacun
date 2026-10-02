@@ -3,14 +3,18 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Bester Lahmacun in D&uuml;sseldorf | Original Urfa Art | Essah-Urfa</title>
-<meta name="description" content="Hunger auf echten Lahmacun in D&uuml;sseldorf? Essah-Urfa backt handgemachten Lahmacun nach Familienrezept, frisch aus dem Ofen &ndash; in D&uuml;sseldorf-Wersten, K&ouml;lner Landstra&szlig;e 263.">
+<title>Essah Urfa Lahmacun | Bester Lahmacun in D&uuml;sseldorf</title>
+<meta name="description" content="Essah Urfa Lahmacun in D&uuml;sseldorf-Wersten: handgemachter Lahmacun nach Familienrezept, frisch aus dem Ofen. Dazu D&ouml;ner, Pide und Pizza &ndash; K&ouml;lner Landstra&szlig;e 263.">
 <meta name="google-site-verification" content="DgEEw7iNzkJwMD2DHUj1GJ-_hLQJwN2ZrJ9JctJrmMQ">
 <link rel="canonical" href="https://essah-urfa.de/">
+<link rel="alternate" hreflang="de" href="https://essah-urfa.de/">
+<link rel="alternate" hreflang="en" href="https://essah-urfa.de/en/">
+<link rel="alternate" hreflang="tr" href="https://essah-urfa.de/tr/">
+<link rel="alternate" hreflang="x-default" href="https://essah-urfa.de/">
 
 <meta property="og:type" content="website">
-<meta property="og:site_name" content="Essah-Urfa Lahmacun">
-<meta property="og:title" content="Bester Lahmacun in D&uuml;sseldorf | Essah-Urfa">
+<meta property="og:site_name" content="Essah Urfa Lahmacun">
+<meta property="og:title" content="Essah Urfa Lahmacun | Bester Lahmacun in D&uuml;sseldorf">
 <meta property="og:description" content="Handgemachter Lahmacun nach Familienrezept, frisch aus dem Ofen &ndash; in D&uuml;sseldorf-Wersten, K&ouml;lner Landstra&szlig;e 263.">
 <meta property="og:url" content="https://essah-urfa.de/">
 <meta property="og:image" content="https://essah-urfa.de/images/web/hero.jpg">
@@ -20,26 +24,43 @@
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "FastFoodRestaurant",
-  "name": "Essah-Urfa Lahmacun",
-  "image": "https://essah-urfa.de/images/web/hero.jpg",
-  "telephone": "+49 211 97170255",
-  "servesCuisine": ["Türkisch", "Lahmacun", "Döner", "Pizza"],
-  "priceRange": "€€",
-  "areaServed": ["Düsseldorf", "Düsseldorf-Wersten", "Düsseldorf-Süd"],
-  "address": {
-    "@type": "PostalAddress",
-    "streetAddress": "Kölner Landstraße 263",
-    "postalCode": "40591",
-    "addressLocality": "Düsseldorf",
-    "addressCountry": "DE"
-  },
-  "geo": {
-    "@type": "GeoCoordinates",
-    "latitude": 51.184088,
-    "longitude": 6.820766
-  },
-  "url": "https://essah-urfa.de/"
+  "@graph": [
+    {
+      "@type": "FastFoodRestaurant",
+      "@id": "https://essah-urfa.de/#restaurant",
+      "name": "Essah Urfa Lahmacun",
+      "alternateName": ["Essah-Urfa", "Essah Urfa", "essah_urfa"],
+      "image": "https://essah-urfa.de/images/web/hero.jpg",
+      "telephone": "+49 211 97170255",
+      "servesCuisine": ["Türkisch", "Lahmacun", "Döner", "Pide", "Pizza"],
+      "priceRange": "€",
+      "areaServed": ["Düsseldorf", "Düsseldorf-Wersten", "Düsseldorf-Süd"],
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Kölner Landstraße 263",
+        "postalCode": "40591",
+        "addressLocality": "Düsseldorf",
+        "addressCountry": "DE"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 51.184088,
+        "longitude": 6.820766
+      },
+      "hasMap": "https://www.google.com/maps?q=51.184088,6.820766",
+      "hasMenu": "https://essah-urfa.de/#speisekarte",
+      "sameAs": ["https://www.instagram.com/essah_urfa/"],
+      "url": "https://essah-urfa.de/"
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://essah-urfa.de/#website",
+      "name": "Essah Urfa Lahmacun",
+      "alternateName": ["Essah-Urfa", "Essah Urfa"],
+      "url": "https://essah-urfa.de/",
+      "publisher": { "@id": "https://essah-urfa.de/#restaurant" }
+    }
+  ]
 }
 </script>
 
@@ -48,9 +69,17 @@
 <body>
 
 <div class="top-banner">
-  <div class="section-inner top-banner-inner">
-    <span>Geh&ouml;rt zusammen mit der Trinkhalle by Fero &ndash; direkt nebenan</span>
-    <a href="kiosk.html">Zum Kiosk &rarr;</a>
+  <div class="section-inner top-banner-inner top-banner-inner--split">
+    <a class="top-banner-social" href="https://www.instagram.com/essah_urfa/" target="_blank" rel="noopener" aria-label="Essah Urfa auf Instagram">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="2.5" y="2.5" width="19" height="19" rx="5.5"/><circle cx="12" cy="12" r="4.4"/><circle cx="17.6" cy="6.4" r="1.2" class="dot"/></svg>
+      <span>@essah_urfa</span>
+    </a>
+    <p class="top-banner-cross">Geh&ouml;rt zusammen mit der Trinkhalle by Fero &ndash; direkt nebenan <a href="kiosk.html">Zum Kiosk &rarr;</a></p>
+    <nav class="lang-switch" aria-label="Sprache w&auml;hlen">
+      <a href="./" hreflang="de" lang="de" aria-current="page">DE</a>
+      <a href="en/" hreflang="en" lang="en">EN</a>
+      <a href="tr/" hreflang="tr" lang="tr">TR</a>
+    </nav>
   </div>
 </div>
 
@@ -77,7 +106,7 @@
   <section class="hero" id="start" style="background-image: linear-gradient(160deg, rgba(20,44,27,0.88), rgba(44,107,58,0.82)), url('images/web/hero.jpg');">
     <div class="hero-content">
       <p class="hero-eyebrow">Original Urfa Art &middot; frisch aus dem Ofen</p>
-      <h1>Essah-Urfa: Traditioneller handgemachter Lahmacun in D&uuml;sseldorf</h1>
+      <h1>Essah Urfa Lahmacun: Traditioneller handgemachter Lahmacun in D&uuml;sseldorf</h1>
       <p class="hero-text">D&uuml;nner Teig, herzhafte F&uuml;lle, direkt aus D&uuml;sseldorf-Wersten. Seit Jahren an der K&ouml;lner Landstra&szlig;e.</p>
       <div class="hero-facts">
         <div class="hero-fact">
@@ -363,9 +392,13 @@
           <div class="contact-row">
             <dt>&Ouml;ffnungszeiten</dt>
             <dd id="openingHours">
-              Mo &ndash; So: 11:00 &ndash; 22:00 Uhr<br>
-              <small>(Platzhalter &ndash; wird durch echte &Ouml;ffnungszeiten ersetzt)</small>
+              Mo &ndash; Do: 10:00 &ndash; 24:00 Uhr<br>
+              <small>(Fr &ndash; So: wird noch erg&auml;nzt)</small>
             </dd>
+          </div>
+          <div class="contact-row">
+            <dt>Instagram</dt>
+            <dd><a href="https://www.instagram.com/essah_urfa/" target="_blank" rel="noopener">@essah_urfa</a></dd>
           </div>
         </dl>
       </div>
@@ -384,7 +417,7 @@
 
 <footer class="site-footer">
   <div class="section-inner footer-inner">
-    <p>&copy; <span id="year"></span> Essah-Urfa &ndash; K&ouml;lner Landstra&szlig;e 263, 40591 D&uuml;sseldorf &middot; <a href="kiosk.html">Trinkhalle by Fero &rarr;</a></p>
+    <p>&copy; <span id="year"></span> Essah Urfa Lahmacun &ndash; K&ouml;lner Landstra&szlig;e 263, 40591 D&uuml;sseldorf &middot; <a href="https://www.instagram.com/essah_urfa/" target="_blank" rel="noopener">Instagram</a> &middot; <a href="kiosk.html">Trinkhalle by Fero &rarr;</a></p>
     <p><a href="was-ist-lahmacun.html">Was ist Lahmacun?</a> &middot; <a href="impressum.html">Impressum</a> &middot; <a href="datenschutz.html">Datenschutz</a></p>
   </div>
 </footer>

@@ -1,12 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://essah-urfa.de/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://essah-urfa.de/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://essah-urfa.de/en/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://essah-urfa.de/tr/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://essah-urfa.de/"/>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://essah-urfa.de/kiosk.html</loc>
+    <loc>https://essah-urfa.de/en/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://essah-urfa.de/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://essah-urfa.de/en/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://essah-urfa.de/tr/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://essah-urfa.de/"/>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://essah-urfa.de/tr/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://essah-urfa.de/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://essah-urfa.de/en/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://essah-urfa.de/tr/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://essah-urfa.de/"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://essah-urfa.de/kiosk.html</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://essah-urfa.de/kiosk.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://essah-urfa.de/en/kiosk.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://essah-urfa.de/tr/kiosk.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://essah-urfa.de/kiosk.html"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://essah-urfa.de/en/kiosk.html</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://essah-urfa.de/kiosk.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://essah-urfa.de/en/kiosk.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://essah-urfa.de/tr/kiosk.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://essah-urfa.de/kiosk.html"/>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://essah-urfa.de/tr/kiosk.html</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://essah-urfa.de/kiosk.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://essah-urfa.de/en/kiosk.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://essah-urfa.de/tr/kiosk.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://essah-urfa.de/kiosk.html"/>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://essah-urfa.de/was-ist-lahmacun.html</loc>
